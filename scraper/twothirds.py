@@ -6,7 +6,9 @@ page = requests.get(url).text
 doc = BeautifulSoup(page, 'html.parser')
 
 title = doc.find('title').text
-print(title)
+# print(title)
+tags = doc.find("title")
+print(tags.string)
 
 
 
