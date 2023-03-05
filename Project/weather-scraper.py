@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from geopy.geocoders import Nominatim
 
-geolocator = Nominatim(user_agent="MyApp")
+geolocator = Nominatim(user_agent="DH23")
 
 print("     Weather Scraper\n" + 
         "-------------------------\n" + 
